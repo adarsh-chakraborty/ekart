@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar__parent{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.brand {
+    width: 10rem;
+}
+.navbar__firstrow{
+    padding: 1rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+   
+}
+
+.magnifying__glass{
+    width: 2.2rem;
+    padding: 0.2rem;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+   
+}
+
+.input__search{
+    width: 55%;
+    height: 2.2rem;
+    padding: 0.25rem;
+    border-radius: 4px;
+
+}
+
+.div__search{
+    width: 100%;
+    margin-left: 8rem;
+    display: flex;
+}
+
+.nav__secondRow{
+    padding: 0.5rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
