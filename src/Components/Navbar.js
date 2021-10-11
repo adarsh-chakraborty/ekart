@@ -14,7 +14,7 @@ const Navbar = () => {
 					<img
 						src="/assets/magnifying.svg"
 						className={classes.magnifying__glass}
-						alt=""
+						alt="magnifyingglass"
 					></img>
 				</div>
 			</div>

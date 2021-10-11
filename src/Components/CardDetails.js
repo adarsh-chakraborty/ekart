@@ -8,6 +8,7 @@ const CardDetails = () => {
 				<img
 					className={classes.address__img}
 					src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-credit-card-sales-vitaliy-gorbachev-flat-vitaly-gorbachev-1.png"
+					alt="card"
 				/>
 			</div>
 			<div className={classes.address_parent}>

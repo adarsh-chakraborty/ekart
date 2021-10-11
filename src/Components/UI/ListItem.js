@@ -7,7 +7,7 @@ const ListItem = (props) => {
 	let counter = props.count ?? null;
 	return (
 		<li className={classes.listItem__parent}>
-			<img src={imgSrc}></img>
+			<img src={imgSrc} alt="item"></img>
 			<span className={classes.listItemName}>{listItem}</span>
 			{counter && <span className={classes.count}>{counter}</span>}
 		</li>

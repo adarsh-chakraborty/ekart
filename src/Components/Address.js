@@ -8,6 +8,7 @@ const Address = () => {
 				<img
 					className={classes.address__img}
 					src="https://img.icons8.com/external-justicon-flat-justicon/64/000000/external-google-maps-social-media-justicon-flat-justicon.png"
+					alt="address"
 				/>
 			</div>
 			<div className={classes.address_parent}>
