@@ -4,10 +4,12 @@
    font-family: Arial, Helvetica, sans-serif;
    display: flex;
    align-items: center;
+   cursor: pointer;
 }
 
 .listItem__parent img{
     width: 1.3rem;
+    
 }
 
 

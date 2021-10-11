@@ -1,6 +1,11 @@
-import Navbar from './Components/Navbar/Navbar';
+import Navbar from './Components/Navbar';
+import UserDetails from './Components/UserDetails';
 function App() {
-	return <Navbar />;
+	return (
+		<>
+			<Navbar /> <UserDetails />
+		</>
+	);
 }
 
 export default App;

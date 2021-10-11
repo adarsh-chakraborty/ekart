@@ -1,5 +1,5 @@
 import classes from './Navbar.module.css';
-import ListItem from '../UI/ListItem';
+import ListItem from './UI/ListItem';
 const Navbar = () => {
 	return (
 		<nav className={classes.navbar__parent}>
