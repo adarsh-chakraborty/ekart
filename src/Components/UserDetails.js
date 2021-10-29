@@ -1,7 +1,13 @@
 import classes from './UserDetails.module.css';
 import FormItem from './UI/FormItem';
+import Button from './UI/Button';
 
 const UserDetails = () => {
+	const btnSubmitHandler = (e) => {
+		e.preventDefault();
+		alert('Your form has been submitted!');
+	};
+
 	return (
 		<div>
 			<div className={classes.header}>
@@ -19,8 +25,12 @@ const UserDetails = () => {
 					<FormItem title="E-mail:" type="email" />
 					<FormItem title="Mobile No." type="text" />
 					<div className={classes.formControl}>
-						<button className={classes.btn}>Save Changes</button>
-						<button className={classes.btn}>Cancel</button>
+						<Button
+							type="submit"
+							text="Save Changes"
+							onClick={btnSubmitHandler}
+						/>
+						<Button type="reset" text="Cancel" />
 					</div>
 				</form>
 			</div>
